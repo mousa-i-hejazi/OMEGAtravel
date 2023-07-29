@@ -1,0 +1,394 @@
+.hero-section {
+    background-image: url(../images/photo-1498307833015-e7b400441eb8.svg);
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    z-index: 0;
+}
+
+.hero-section .overlay {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.hero-section .navbar {
+    padding: 0 20px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 2;
+    width: 80%;
+    display: flex;
+}
+
+.hero-section .navbar .navbar-brand span {
+    color: #000;
+    font-weight: bold;
+}
+
+.hero-section .navbar .navbar-brand {
+    font-weight: lighter;
+}
+
+.hero-section .navbar .nav-item .nav-link {
+    font-weight: normal;
+}
+
+.hero-section .navbar .navbar-nav {
+    margin-top: 20px;
+    margin-right: 130px;
+}
+
+.hero-section .navbar .home .nav-link {
+    color: #ED093E;
+    border-bottom: #ED093E 5px solid;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 16px;
+}
+
+.hero-section .navbar .btn {
+    color: #fff;
+    background-color: #D31F49;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+}
+
+.hero-section .text {
+    padding: 200px;
+    position: absolute;
+    z-index: 3;
+}
+
+.hero-section .text h2 {
+    font-size: 35px;
+    color: #fff;
+}
+
+.hero-section .text p {
+    font-size: 80px;
+    color: #fff;
+    font-weight: lighter;
+}
+
+.hero-section .text .btn {
+    color: #fff;
+    background-color: #D31F49;
+    padding: 10px 25px;
+}
+
+.sec-1 {
+    padding: 80px 0;
+}
+
+.sec-1 h1 {
+    font-weight: lighter;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.sec-1 .p1 {
+    width: 80%;
+    color: #727272;
+    font-family: 'PT Serif';
+    font-size: 19px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.sec-1 hr {
+    width: 20%;
+    border: #ED093E 2px solid;
+}
+
+.sec-1 .p2 {
+    width: 80%;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+.sec-1 .btn {
+    color: #D31F49;
+    border: #D31F49 1px solid;
+    padding: 10px 30px;
+}
+
+.sec-1 .img {
+    position: relative;
+}
+
+.sec-1 .img img {
+    width: 80%;
+}
+
+.sec-1 .img .img1 {
+    position: absolute;
+    top: 60px;
+}
+
+.sec-1 .img .img2 {
+    position: absolute;
+    top: 2;
+    bottom: 150px;
+    left: 100px;
+}
+
+.sec-2 {
+    background: #EE2655;
+    padding: 50px 200px;
+}
+
+.sec-2 h1 {
+    color: #fff;
+    font-family: "PT Serif";
+    font-style: Italic;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.sec-2 .row {
+    margin-left: 150px;
+
+}
+
+.sec-2 input {
+    padding: 10px;
+    width: 50%;
+    margin-right: 20px;
+    background-color: #F85B80;
+    border: 0;
+}
+
+.sec-2 button {
+    color: #fff;
+    padding: 10px;
+    border: #fff 1px solid;
+    width: 25%;
+}
+
+.sec-3 {
+    padding: 50px 0;
+}
+
+.sec-3 .content hr {
+    width: 5%;
+    margin: auto;
+    border: #EF2756 2px solid;
+    margin-bottom: 20px;
+}
+
+.sec-3 .content h1 {
+    color: #000;
+    font-weight: lighter;
+    font-size: 50px;
+}
+.sec-3 .content p{
+    color: #727272;
+    font-family: "PT Serif";
+    font-style: italic;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.sec-3 .row div{
+    border: 0;
+}
+.sec-3 .row div h5{
+    color: #000;
+    font-weight: lighter;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.sec-3 .row div hr{
+    width: 20%;
+    border: #EF2756 2px solid;
+    margin-bottom: 20px
+}
+.sec-5{
+    padding: 250px 0;
+    background-image: url(../images/Mask\ Group\ 2.svg);
+    background-size: cover;
+    background-position: 0 0 0 0;
+    position: relative;
+    z-index: 0;
+}
+.sec-5 .overlay{
+    background-color: #EE2655;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0.8;
+}
+.sec-5 .content {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding:0 350px;
+}
+.sec-5 hr{
+    width: 5%;
+    margin: 50px auto;
+    border: #fff 2px solid ;
+}
+.sec-5 h1{
+    color: #fff;
+    font-weight: lighter;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.sec-5 .p1{
+    color: #fff;
+    font-family: "PT Serif";
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.sec-5 h5{
+    color: #FFE200;
+    font-family: "PT Serif";
+    font-style: italic;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.sec-5 .p2{
+    color: #fff;
+    font-size: 15px;
+}
+.sec-5 .p3{
+    font-family: "PT Serif";
+    color: #fff;
+}
+.sec-5 button{
+    margin-top: 150px;
+}
+.sec-6 {
+    padding: 50px 0;
+}
+
+.sec-6 .content hr {
+    width: 5%;
+    margin: auto;
+    border: #EF2756 2px solid;
+    margin-bottom: 20px;
+}
+
+.sec-6 .content h1 {
+    color: #000;
+    font-weight: lighter;
+    font-size: 50px;
+}
+.sec-6 .content p{
+    color: #727272;
+    font-family: "PT Serif";
+    font-style: italic;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.sec-6 .row div{
+    border: 0;
+    position: relative;
+}
+.sec-6 .row div button{
+    position: absolute;
+    top: 120px;
+    right: 100px;
+    color: #fff;
+    background-color: #ED2E59;
+    padding: 10px 30px;
+}
+.sec-6 .row div h5{
+    color: #000;
+    font-weight: lighter;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+.sec-6 .row div hr{
+    width: 20%;
+    border: #EF2756 2px solid;
+    margin-bottom: 20px
+}
+.sec-6 .button{
+    margin-top: 50px;
+    margin-left: 470px;
+    color: #EE2655;
+    border: 1px #EE2655 solid;
+    padding: 10px 40px;
+}
+.sec-7{
+    padding: 100px 0;
+    background-color: #EE2655;
+    color: #fff;
+}
+.sec-7 h1{
+    font-weight: lighter;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.sec-7 hr{
+    width: 5%;
+    border: 2px #fff solid;
+}
+.sec-7 .p1{
+    width: 80%;
+    font-family: "PT Serif";
+    font-style: italic;
+    font-size: 21px;
+    margin-bottom: 40px;
+}
+.sec-7 button{
+    color: #EE2655;
+    background-color: #fff;
+    padding: 10px 40px;
+    font-size: 14px;
+}
+.sec-7 h5{
+    margin-top: 20px;
+    font-weight: lighter;
+    font-size: 25px;
+}
+.sec-7 .p2 {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+footer{
+    padding: 20px 200px;
+    background-color: #D51945;
+    color: #fff;    
+}
+footer .content{
+    display: flex;
+}
+footer .content a{
+    font-size: 18px;
+}
+footer .content p{
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+footer .content a span{
+    font-weight: bold;
+    margin: auto;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+}
+footer ul li{
+    padding-left: 20px;
+    font-size: 15px;
+    margin-top: 2px;
+}
